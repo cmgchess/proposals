@@ -24,7 +24,6 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Legacy RegExp features in JavaScript][regexp-legacy]                          | Claude Pache                                                            | Mark Miller<br />Claude Pache                                           | <sub>[legacy-regexp][tests-regexp-legacy]</sub>                     | <sub>[May&nbsp;2017][regexp-legacy-notes]</sub>            |
 | [JSON Modules][json-modules]                                                   | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | Myles Borins<br />Sven Sauleau<br />Dan Clark<br />Daniel Ehrenberg     | <sub>[json-modules][json-modules-tests]</sub>                       | <sub>[January&nbsp;2021][json-modules-notes]</sub>         |
 | [Temporal][temporal]                                                           | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant | Philipp Dunkel<br />Maggie Johnson-Pint<br />Matt Johnson-Pint<br />Brian Terlson<br />Shane Carr<br />Ujjwal Sharma<br />Philip Chimento<br />Jason Williams<br />Justin Grant| <sub>[Temporal][temporal-tests]</sub> | <sub>[March&nbsp;2021][temporal-notes]</sub> |
-| [Resizable and growable ArrayBuffers][resizable]                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[resizable-arraybuffer][resizable-tests]</sub>                 | <sub>[May&nbsp;2021][resizable-notes]</sub>                |
 | [ShadowRealm][shadowrealm]                                                     | Caridy Patiño<br />Jean-Francois Paradis                                | Dave Herman<br />Mark Miller<br />Caridy Patiño<br />Leo Balter<br />Rick Waldron<br />Chengzhong Wu | <sub>[ShadowRealm][realms-tests]</sub> | <sub>[December&nbsp;2022][realms-notes]</sub>              |
 | [Decorators][decorators]                                                       | Daniel Ehrenberg<br />Kristen Hewell Garrett                                     | Kristen Hewell Garrett                                                           | <sub>[decorators][decorators-tests]</sub>                           | <sub>[March&nbsp;2023][decorators-notes]</sub>             |
 | [JSON.parse source text access][json-parse-source]                             | Richard Gibson                                                          | Richard Gibson                                                          | :question:                                                          | <sub>[January&nbsp;2023][json-parse-source-notes]</sub>    |
@@ -69,6 +68,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Async Context][async-context]                                                 | Chengzhong Wu                                         | Chengzhong Wu<br />Justin Ridgewell                                               | <sub>[March&nbsp;2023][async-context-notes]</sub>                     |
 | [Time Zone Canonicalization][time-zone-canon]                                  | Justin Grant                                          | Justin Grant<br />Richard Gibson                                                  | <sub>[May&nbsp;2023][time-zone-canon-notes]</sub>                     |
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                       | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                               | <sub>[July&nbsp;2023][lazy-import-notes]</sub>                                             |
+| [`RegExp.escape`][escape]                                         | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband | Jordan Harband                                                             | <sub>September&nbsp;2023</sub>                                        |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -79,7 +79,7 @@ Proposals that are Stage 1 and above must be transferred to [the TC39 GitHub org
 
 1. Transfer your repository to the [@tc39-transfer](http://github.com/tc39-transfer) organization
   - if you are a TC39 delegate, but not a member of that organization, please contact [@LJHarb](https://github.com/ljharb)
-2. One of the chairs ([@bterlson](https://github.com/bterlson), [@gesa](https://github.com/gesa), [@MylesBorins](https://github.com/MylesBorins), or [@robpalme](https://github.com/robpalme)) will transfer your repository to the TC39 organization the next chance they get.
+2. The Github Administrator, or One of the chairs, will transfer your repository to the TC39 organization the next chance they get.
 
 Note that as part of the onboarding process your repository name may be normalized. Don't worry, repo redirects will continue to work **as long as** you never create a fork, or a new repository, with the same name - although Github Pages redirects will be broken (please update your links!).
 
@@ -134,9 +134,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [import-attributes]: https://github.com/tc39/proposal-import-attributes
 [import-attributes-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-01/feb-02.md#import-assertions
 [import-attributes-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=import-assertions
-[resizable]: https://github.com/tc39/proposal-resizablearraybuffer
-[resizable-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-05/may-25.md#resizable-arraybuffers-for-stage-3
-[resizable-tests]: https://github.com/tc39/test262/search?l=JavaScript&q=resizable-arraybuffer
 [module-expressions]: https://github.com/tc39/proposal-module-expressions
 [module-expressions-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2022-11/dec-01.md#module-expressions
 [pipeline]: https://github.com/tc39/proposal-pipeline-operator
@@ -184,3 +181,5 @@ Note that as part of the onboarding process your repository name may be normaliz
 [promise-defer-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#promisewithresolvers
 [lazy-import]: https://github.com/tc39/proposal-defer-import-eval
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-07/july-11.md#deferred-import-evaluation
+[escape]: https://github.com/tc39/proposal-regex-escaping
+[escape-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2021-01/jan-28.md#revisiting-regexp-escape
