@@ -34,7 +34,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Redeclarable global `eval`-introduced `var`s][redeclarable-global-eval-vars]  | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Testing plan][redeclarable-global-eval-vars-testplan]</sub>   | <sub>[April&nbsp;2024][redeclarable-global-eval-vars-notes]</sub> |
 | [`RegExp.escape`][escape]                                                      | Domenic Denicola<br />Benjamin Gruenbaum<br />Jordan Harband            | Jordan Harband<br />Kevin Gibbons                                       | <sub>[RegExp.escape][escape-tests]                                  | <sub>[July&nbsp;2024][escape-notes]</sub>                  |
 | [`Atomics.pause`][atomics-pause]                                               | Shu-yu Guo                                                              | Shu-yu Guo                                                              | <sub>[Atomics.pause][atomics-pause-tests]</sub>                     | <sub>[October&nbsp;2024][atomics-pause-notes]</sub>        |
-| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>December&nbsp;2024</sub>                              |
+| [`Error.isError`][is-error]                                                    | Jordan Harband                                                          | Jordan Harband                                                          | <sub>[Error.isError][error-iserror-tests]</sub>                     | <sub>[December&nbsp;2024][is-error-notes]</sub>                              |
 
 ### Stage 2.7
 
@@ -76,7 +76,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Structs: Fixed Layout Objects and Some Synchronization Primitives][structs]   | Shu-yu Guo                                            | Shu-yu Guo                                                                        | <sub>[October&nbsp;2024][structs-notes]</sub>                         |
 | [Extractors][extractors]                                                       | Ron Buckton                                           | Ron Buckton                                                                       | <sub>[October&nbsp;2024][extractors-notes]</sub>                      |
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                                   | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
-| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works     | <sub>December&nbsp;2024</sub>                                         |
+| [Immutable ArrayBuffers][immutable-abs]                                        | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works | Mark Miller<br />Peter Hoddie<br />Richard Gibson<br />Jack Works     | <sub>[December&nbsp;2024][immutable-abs-notes]</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -196,7 +196,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [dynamic-code-brand-checks]: https://github.com/tc39/proposal-dynamic-code-brand-checks
 [dynamic-code-brand-checks-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2019-12/december-5.md#dynamic-code-brand-checks-for-stage-2
 [is-error]: https://github.com/tc39/proposal-is-error
-[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#erroriserror-for-stage-27
+[is-error-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-02.md#erroriserror-to-stage-3
 [error-iserror-tests]: https://github.com/tc39/test262/pull/4266
 [sequencing]: https://github.com/tc39/proposal-iterator-sequencing
 [sequencing-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-08.md#iterator-sequencing-for-stage-27
@@ -217,4 +217,4 @@ Note that as part of the onboarding process your repository name may be normaliz
 [chunking]: https://github.com/tc39/proposal-iterator-chunking
 [chunking-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-09.md#iterator-chunking-for-stage-2
 [immutable-abs]: https://github.com/Agoric/tc39-proposal-immutable-arraybuffer
-[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-10/october-10.md#immutable-arraybuffers-for-stage-1
+[immutable-abs-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-12/december-03.md#immutable-arraybuffer-to-stage-2
