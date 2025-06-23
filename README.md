@@ -77,8 +77,8 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                       | Michael Ficarra                                                         | Ashley Claymore<br />Jordan Harband<br />Jesse Alama | <sub>[October&nbsp;2024][chunking-notes]</sub>                        |
 | [Error Stack Accessor][stack-accessor]                                         | Jordan Harband                                        | Jordan Harband<br />Mark Miller                                                   | Nicolò Ribaudo<br />Michael Ficarra        | <sub>[February&nbsp;2025][stack-accessor-notes]</sub>                 |
 | [Deferred Re-exports][deferred-reexport]                                       | Nicolò Ribaudo                                        | Nicolò Ribaudo                                                                    | Chengzhong Wu<br />Ashley Claymore         | <sub>[April&nbsp;2025][deferred-reexport-notes]</sub>                 |
-| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>May&nbsp;2025</sub>                                         |
-| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>May&nbsp;2025</sub>                                              |
+| [SeededPRNG][seeded-randoms]                                                   | Tab Atkins                                            | Tab Atkins                                                                        | Kevin Gibbons<br />Jesse Alama<br />Mark Miller | <sub>[May&nbsp;2025][seeded-randoms-notes]</sub>                                         |
+| [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                                              |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
 The :question: means there is no feature flag for tests yet.
@@ -218,6 +218,6 @@ Note that as part of the onboarding process your repository name may be normaliz
 [deferred-reexport]: https://github.com/tc39/proposal-deferred-reexports
 [deferred-reexport-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-04/april-16.md#export-defer-extracted-from-import-defer-stage-2-update-or-for-stage-1
 [seeded-randoms]: https://github.com/tc39/proposal-seeded-random
-[seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2018-01/jan-23.md#13iif-mathseededrandoms-for-stage-1
+[seeded-randoms-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#seededprng-for-stage-2
 [clamp]: https://github.com/tc39/proposal-math-clamp
-[clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#mathclamp-for-stage-1-or-2
+[clamp-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-05/may-29.md#continuation-mathclamp-for-stage-2
