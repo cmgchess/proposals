@@ -107,9 +107,9 @@ Proposals follow [this process document](https://tc39.es/process-document/).
 | [Module Global][module-global]                                                               | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | Zbyszek Tenerowicz<br />Kris Kowal<br />Richard Gibson<br />Mark S. Miller | <sub>[July&nbsp;2025][module-global-notes]</sub> |
 | [Representing Measures/Amounts][measure]                                                     | Ben Allen                                              | Ben Allen                                             | <sub>[September&nbsp;2025][measure-notes]</sub>                   |
 | [Bulk-add array elements][bulk-add-array]                                                    | Daniel Rosenwasser                                     | Daniel Rosenwasser                                    | <sub>[September&nbsp;2025][bulk-add-array-notes]</sub>            |
-| [TypedArray Concat][typedarray-concat]                                                       | James Snell                                            | James Snell                                           | <sub>November&nbsp;2025</sub>                                     |
-| [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>November&nbsp;2025</sub>                                     |
-| [`Object.getNonIndexStringProperties()`][getNonIndexStringProperties]                        | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>November&nbsp;2025</sub>                                     |
+| [TypedArray Concat][typedarray-concat]                                                       | James Snell                                            | James Snell                                           | <sub>[November&nbsp;2025][typedarray-concat-notes]</sub>                                     |
+| [TypedArray Find Within][typedarray-findwithin]                                              | James Snell                                            | James Snell                                           | <sub>[November&nbsp;2025][typedarray-findwithin-notes]</sub>                                     |
+| [`Object.getNonIndexStringProperties()`][getNonIndexStringProperties]                        | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                 | <sub>[November&nbsp;2025][getNonIndexStringProperties-notes]</sub>                                     |
 
 See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposals.md), [finished proposals](finished-proposals.md), and [inactive proposals](inactive-proposals.md) documents.
 
@@ -315,5 +315,8 @@ See also the [active proposals](README.md), [stage 0 proposals](stage-0-proposal
 [bulk-add-array]: https://github.com/tc39/proposal-bulk-add-array-elements
 [bulk-add-array-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-09/september-22.md#arrayprototypepushall-for-stage-1
 [typedarray-concat]: https://github.com/tc39/proposal-typedarray-concat
+[typedarray-concat-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#typedarray-concatenation
 [typedarray-findwithin]: https://github.com/tc39/proposal-typedarray-findwithin
+[typedarray-findwithin-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#typedarray-find-within
 [getNonIndexStringProperties]: https://github.com/BridgeAR/array-get-non-index-string-properties
+[getNonIndexStringProperties-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-20.md#objectgetnonindexstringproperties-for-stage-1-or-2

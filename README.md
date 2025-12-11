@@ -34,7 +34,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [Deferring Module Evaluation][lazy-import]                                     | Yulia Startsev<br />Guy Bedford                                         | Yulia Startsev<br />Guy Bedford<br />Nicolò Ribaudo                     | <sub>[Testing plan][lazy-import-testplan]</sub>                     | <sub>[February&nbsp;2025][lazy-import-notes]</sub>         |
 | [`Upsert`][upsert]                                                             | Daniel Minor, Lauritz Thoresen Angeltveit, Jonas Haukenes, Sune Lianes, Vetle Larsen, Mathias Hop Ness | Daniel Minor                             | <sub>[Testing plan][upsert-testing-plan]</sub>                      | <sub>[July&nbsp;2025][upsert-notes]</sub>                  |
 | [Non-extensible Applies to Private][nonext-private]                            | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks | Mark Miller<br />Shu-yu Guo<br />Chip Morningstar<br />Erik Marks             | :question:                                                          | <sub>[September&nbsp;2025][nonext-private-notes]</sub>     |
-| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>November&nbsp;2025</sub>                              |
+| [Joint Iteration][joint]                                                       | Michael Ficarra                                                         | Michael Ficarra                                                         | <sub>[Testing plan][joint-testplan]</sub>                           | <sub>[November&nbsp;2025][joint-notes]</sub>                              |
 
 
 ### Stage 2.7
@@ -47,7 +47,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [iterator chunking][chunking]                                                  | Michael Ficarra                                                   | Michael Ficarra                                                               | :question:                                                          | <sub>[September&nbsp;2025][chunking-notes]</sub>           |
 | [Import Bytes][import-bytes]                                                   | Steven Salat                                                      | Steven Salat                                                                  | :question:                                                          | <sub>[September&nbsp;2025][import-bytes-notes]</sub>       |
 | [Await Dictionary][await-dictionary]                                           | Alexander J. Vincent                                              | Ashley Claymore<br />Jordan Harband<br />Chris de Almeida                     | :question:                                                          | <sub>[March&nbsp;2023][await-dictionary-notes]</sub>       |
-| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                     | Kevin Gibbons                                                                 | :question:                                                          | <sub>November&nbsp;2025</sub>                              |
+| [Iterator Join][iterator-join]                                                 | Kevin Gibbons                                                     | Kevin Gibbons                                                                 | :question:                                                          | <sub>[November&nbsp;2025][iterator-join-notes]</sub>                              |
 
 ### Stage 2
 
@@ -80,7 +80,7 @@ Stage 2 indicates that the committee expects these features to be developed and 
 | [`Math.clamp`][clamp]                                                          | Oliver Medhurst                                       | Oliver Medhurst                                                                   |                                            | <sub>[May&nbsp;2025][clamp-notes]</sub>                               |
 | [Native Promise Predicate][native-promise-predicate]                           | Mathieu Hofman                                        | Mathieu Hofman                                                                    | Jordan Harband<br />James Snell<br />Justin Ridgewell | <sub>[September&nbsp;2025][native-promise-predicate-notes]</sub> |
 | [`Error.captureStackTrace`][capturestacktrace]                                 | Matthew Gaudet                                         | Matthew Gaudet<br />Dan Minor                                                    | Jordan Harband<br />Michael Ficarra        | <sub>[February&nbsp;2025][capturestacktrace-notes]</sub>              |
-| [Import Text][import-text]                                                     | Eemeli Aro                                             | Eemeli Aro                                                                       | Jordan Harband<br />Nicolò Ribaudo         | <sub>November&nbsp;2025</sub>                                         |
+| [Import Text][import-text]                                                     | Eemeli Aro                                             | Eemeli Aro                                                                       | Jordan Harband<br />Nicolò Ribaudo         | <sub>[November&nbsp;2025][import-text-notes]</sub>                                         |
 | [`Object.keysLength`][keyslength]                                              | Ruben Bridgewater<br />Jordan Harband                  | Ruben Bridgewater<br />Jordan Harband                                            | Eemeli Aro<br />James Snell                | <sub>November&nbsp;2025</sub>                                         |
 
 The test262 feature flag links to a code search of tests using that feature flag, which may constitute complete or partial coverage.
@@ -179,7 +179,7 @@ Note that as part of the onboarding process your repository name may be normaliz
 [lazy-import-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-18.md#import-defer-for-stage-3
 [lazy-import-testplan]: https://github.com/tc39/test262/issues/4111
 [joint]: https://github.com/tc39/proposal-joint-iteration
-[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-06/june-12.md#joint-iteration-for-stage-27
+[joint-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#joint-iteration-for-stage-3
 [joint-testplan]: https://github.com/tc39/test262/issues/4112
 [redeclarable-global-eval-vars]: https://github.com/tc39/proposal-redeclarable-global-eval-vars
 [redeclarable-global-eval-vars-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2024-04/april-08.md#make-eval-introduced-global-vars-redeclarable-for-stage-27
@@ -223,6 +223,8 @@ Note that as part of the onboarding process your repository name may be normaliz
 [capturestacktrace-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-02/february-19.md#errorcapturestacktrace-for-stage-1
 [await-dictionary]: https://github.com/tc39/proposal-await-dictionary
 [await-dictionary-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2023-03/mar-22.md#await-dictionary-for-stage-1
-[import-text]: https://github.com/eemeli/proposal-import-text
-[iterator-join]: https://github.com/bakkot/proposal-iterator-join
+[import-text]: https://github.com/tc39/proposal-import-text
+[import-text-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-18.md#import-text
+[iterator-join]: https://github.com/tc39/proposal-iterator-join
+[iterator-join-notes]: https://github.com/tc39/notes/blob/HEAD/meetings/2025-11/november-19.md#iterator-join-for-stage-1-2-or-27
 [keyslength]: https://github.com/tc39/proposal-object-keys-length
